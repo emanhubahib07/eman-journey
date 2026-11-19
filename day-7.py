@@ -5,6 +5,7 @@ student = {
     "Grade": 89
 }
 student["Location"] = "Caloocan Bagong Silang"
+student["Sport"] = "Basketball"
 def display_student():
     for key, value in student.items():
         print(f"{key}: {value}")
